@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body {
+	
+  font-family: 'AssassinNinja w12j8;
+}
+body
+		{
+			background-image: url(  "loginB.jpg")
+		}
+/*navebar*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+	font-family: "AssassinNinja w12j8";
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+	
+	
+
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href="login page.html">Profile</a>
+	<a href="../Home Page/Home Page.html">Home</a>
+	<a href="../Product Page/Product Page.html">Ninja Market</a>
+	<a href="#">Cart</a>
+	<a href="#">Wish list</a>
+	
+	
+</div>
+	
+
+ 
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+	<img src="Space ninja Logo.png" alt="Paris" style="width:20%;">
+	    <div class="login-box">
+    <img src="Space ninja Logo.png" class="avatar">
+        <h1>Login Here</h1>
+            <form>
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password">
+            <input type="submit" name="submit" value="Login">
+				<input type="submit" name="signup" value="signup">
+            <a href="#">Forget Password</a>    
+            </form>
+        
+        
+        </div>
+	
+</body>
+</html>
