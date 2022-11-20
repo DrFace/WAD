@@ -6,7 +6,7 @@
 <style>
 body {
 	
-  font-family: 'AssassinNinja w12j8;
+  font-family: 'AssassinNinja w12j8';
 }
 body
 		{
@@ -90,8 +90,8 @@ function closeNav() {
 }
               
   function signpage() {
-    window.preventDefault();
-    window.location.replace("http://www.w3schools.com");
+    //window.preventDefault();
+    window.location.replace("./Sign_Up.html");
     //alert("Hi")
   }
 
@@ -100,13 +100,13 @@ function closeNav() {
 	    <div class="login-box">
     <img src="Space ninja Logo.png" class="avatar">
         <h1>Log-in Here</h1>
-            <form action="./Sign_Up.html" method="post">
+            <form action="./.h" method="post">
             <p>Username</p>
             <input type="text" name="username" placeholder="Enter Username">
             <p>Password</p>
             <input type="password" name="password" placeholder="Enter Password">
             <input type="submit" name="submit" value="Log-in">
-				<input type="submit" name="signup" value="Sign-up" onclick="signpage()" >
+            <button type="button" onclick="signpage()" class="SignUP">Sign-up</button>
         <a href="#">Forget Password</a>    
       </form>
   
