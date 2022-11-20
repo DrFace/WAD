@@ -1,11 +1,18 @@
 <!doctype html>
-<html long="en">
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
-<title>Home</title>
-	<style>
-		/*navebar*/
+<style>
+body {
+	
+  font-family: 'AssassinNinja w12j8;
+}
+body
+		{
+			background-image: url(  "loginB.jpg")
+		}
+/*navebar*/
 .sidenav {
   height: 100%;
   width: 0;
@@ -46,33 +53,31 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-.hero-image {
-  background-image: url("background1.jpg");
-  background-color: #cccccc;
-  height: 640px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  background-attachment: fixed;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-	</style>
+</style>
 </head>
-
 <body>
-<div class="hero-image">
+	
+	
+
 
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	<a href="../Login Page/login page.html">Profile</a>
-	<a href="Home Page.html">Home</a>
+	<a href="login page.html">Profile</a>
+	<a href="../Home Page/Home Page.html">Home</a>
 	<a href="../Product Page/Product Page.html">Ninja Market</a>
-	<a href="#">Cart</a>
-	
+	<a href="#">Cart</a>	
 	
 </div>
-	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+	
+
+ 
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
 
 <script>
 function openNav() {
@@ -83,6 +88,25 @@ function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+	<img src="Space ninja Logo.png" alt="Paris" style="width:20%;">
+	    <div class="login-box">
+    <img src="Space ninja Logo.png" class="avatar">
+        <h1>Sign-up Here</h1>
+            <form>
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password">
+            <p>Email</p>
+            <input type="text" name="email" placeholder="Enter Email">
+				<input type="submit" name="signup" value="Sign-up">
+                <input type="submit" name="submit" value="Log-in" href="C:\wamp64\www\Space Ninja\Login Page\login page.html" >
+
+  
+            </form>
+        
+        
+        </div>
 	
 </body>
 </html>
